@@ -17,7 +17,7 @@ app.use(helmet())
 
 app.use(express.static('public'))
 
-app.get('/lists', (req, res) => {
+app.get('/reading-lists', (req, res) => {
   res.json(manager.activeLists())
 })
 
