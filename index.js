@@ -22,7 +22,6 @@ app.get('/reading-lists', (req, res) => {
 })
 
 app.use((err, req, res, next) => {
-  console.log('whoo')
   res.status(err.status).send('Eeek!', err.message)
 })
 

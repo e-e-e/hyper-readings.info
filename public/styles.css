@@ -1,0 +1,44 @@
+html, body {
+  font-size: 16;
+  font-family: georgia, serif;
+}
+body {
+  max-width: 35rem;
+  margin: 0 auto;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 20rem;
+
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'Lato', sans-serif;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+h1 { margin-top: 0 }
+h2 { margin-bottom: 0.25rem; }
+p, li {
+  font-size: 1.1rem;
+}
+p {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+li {
+  margin-bottom: 1rem;
+}
+a, a:visited {
+  color: rgb(42, 140, 255);
+;
+}
+a:hover, a:focus {
+  color: rgb(39, 124, 254);
+}
+hr {
+  border: none;
+  border-bottom: solid 0.25rem rgb(39, 124, 254);
+  margin: 0;
+  padding: 0;
+}
