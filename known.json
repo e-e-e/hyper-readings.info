@@ -1,5 +1,15 @@
-[{
-  "title": "Si-fi Ali and Julia",
-  "key": "ec431a0a2aeb5d31aa6217e8f76c46a1dcdd525195871e78b1d599805aeb0628",
-  "description": "A science fiction reading list by Ali Crosby and Julia Bavyka"
-}]
+[
+  {
+    "title": "Si-fi Ali and Julia",
+    "key": "ec431a0a2aeb5d31aa6217e8f76c46a1dcdd525195871e78b1d599805aeb0628",
+    "description": "A science fiction reading list by Ali Crosby and Julia Bavyka"
+  }, {
+    "title": "Equivalent Ideas",
+    "key": "eb584b090c6160250e2b39285518e553f9fb0e7867536eabeb50310c7da9bbd7",
+    "description": "Things that I am thinking about."
+  }, {
+    "title": "Seeds, collaboration, kindness",
+    "key": "180d09be3b1aaa103b7bae8fbaac96180dbac5b60d6bed03a2fa40299b9c6af8",
+    "description": ""
+  }
+]
