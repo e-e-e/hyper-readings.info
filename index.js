@@ -13,6 +13,8 @@ const manager = new Manager(hrFolder)
 
 const app = express()
 
+app.set('view-engine', 'ejs')
+
 app.use(helmet())
 
 app.use(express.static('public'))
@@ -21,8 +23,12 @@ app.get('/reading-lists', (req, res) => {
   res.json(manager.activeLists())
 })
 
+app.get('/', (req, res) => {
+  res.render('index.html.ejs', { lists: manager.activeLists() })
+})
+
 app.use((err, req, res, next) => {
-  res.status(err.status).send('Eeek!', err.message)
+  res.status(err.status || 500).send('Eeek!' + err.message)
 })
 
 app.listen(8080, () => console.log('App listening on port 8080!'))
