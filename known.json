@@ -1,5 +1,9 @@
 [
   {
+    "title": "A Reading List of Reading Lists",
+    "key": "fdf7cfd5889b26f9df9f370fe69dfeddcfdea96d71fac3c3b37bd4eca2645ffb",
+    "description": "A number of reading lists that have inspired Hyper Readings"
+  }, {
     "title": "Si-fi Ali and Julia",
     "key": "ec431a0a2aeb5d31aa6217e8f76c46a1dcdd525195871e78b1d599805aeb0628",
     "description": "A science fiction reading list by Ali Crosby and Julia Bavyka"
@@ -14,7 +18,7 @@
   }, {
     "title": "Bibliography on Attention",
     "key": "d7e15f8632713e217ab214ffda00e4896e2b31a773e776176376c949aeee745e",
-    "description": "A bibliography on Attention by Lizzie Thomson"
+    "description": "A Bibliography on Attention by Lizzie Thomson"
   }, {
     "title": "We Make Each Other Up",
     "key": "eda384ea7ee939fbbb13f88320b112e9ca475260158b028fb29517534b53832e",
@@ -23,5 +27,17 @@
     "title": "VISUAL ART : DANCE : COMPOSITION : HISTORY",
     "key": "df627532ab4c510c76ba3bf21cdb874a1ea4707a3c309e272363b4b4a024df23",
     "description": "A reading list by Erin Brannigan"
+  }, {
+    "title": "Frontyard Retreat 2018",
+    "key": "d2e42b39f0d418906aeb6e6ad35b78d273a1669e477e8daaaf9e27615fd87742",
+    "description": "What was being read in May 2018."
+  }, {
+    "title": "Mapping Edges",
+    "key": "d201afeb986bd9ddcd90d8660db324f8a5c9c3709fba6b8dee2fc797ac13bd0d",
+    "description": "A growing list by the Mapping Edges Research Studio (Ilaria Vanni Accarigi and Alexandra Crosby)."
+  }, {
+    "title": "HyperReadings prototyping Sabbotnik",
+    "key": "fdf7cfd5889b26f9df9f370fe69dfeddcfdea96d71fac3c3b37bd4eca2645ffb",
+    "description": "Text remembered or referred to at the HyperReadings prototyping day."
   }
 ]
