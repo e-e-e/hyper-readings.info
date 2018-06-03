@@ -34,17 +34,20 @@
   <section>
     <h2 id="about">Reading Lists</h2>
     <hr/>
-    <p>This is a curated collection of reading lists that are currently available through HyperReadings.</p>
+    <p>This is a small collection of public reading lists that are available through HyperReadings. All readings lists are private private by default unless you share their unique key. Only someone with the key can the access them.</p>
+    <p>To access these reading lists, first install <a href="https://github.com/e-e-e/hyper-reader#installation">Hyper-Reader</a>, then use the keys below to import whichever reading list interests you.</p>
     <ul>
     <% lists.forEach(function(list) { %>
-        <li><h4><%= list.title %></h4><div class="key"><%= list.key %></div></li>
+        <li>
+          <h4><%= list.title %></h4>
+          <p class="description"><%= list.description %></p>
+          <div class="key-container">
+            <div>Key:</div>
+            <div class="key"><%= list.key %></div>
+          </div>
+        </li>
     <% }); %>
     </ul>
-    <p><strong>How to view these Reading Lists</strong></p>
-    <ol>
-      <li>Install <a href="https://github.com/e-e-e/hyper-reader#installation">Hyper Reader</a></li>
-      <li>Import any of these lists by their unique key.</li>
-    </ol>
   </section>
   <footer>
     <hr/>
