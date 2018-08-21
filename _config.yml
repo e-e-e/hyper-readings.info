@@ -1,0 +1,20 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: HyperReadings
+description: > # this means to ignore newlines until "baseurl:"
+  HyperReadings is a distributed archival infrastructure for writing,
+  sharing, navigating and adapting ‘reading lists’. Where a ‘reading’
+  is anything that can be read, this includes texts, images, films,
+  digital and non-digital objects.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://hyperreadings.com" # the base hostname & protocol for your site
+github_username:  samiz-dat
+
+# Build settings
+markdown: kramdown
