@@ -1,10 +1,16 @@
-html, body {
-  font-size: 16;
-  font-family: georgia, serif;
+html {
+  font-size: 10px;
+  font-family: Helvetica, sans-serif;
 }
 body {
-  max-width: 35rem;
-  margin: 0 auto;
+  font-size: 2.4rem;
+  max-width: 80vw;
+  margin-left: 1em;
+
+  @media(max-width: 670px){
+    font-size: 1.8rem;
+    max-width: 100%;
+  }
 }
 header img {
   display: block;
@@ -14,60 +20,105 @@ header img {
 
 img.logo {
   display: block;
-  margin: 0 auto;
+  margin: 0.25em 0;
   padding: 1rem;
   max-width: 6rem;
 }
 
-h1, h2, h3, h4, h5 {
-  font-family: 'Lato', sans-serif;
-  margin-left: 1rem;
+h2, h3, h4, h5 {
+  font-size: 4.8rem;
   margin-right: 1rem;
+  @media(max-width: 670px){
+    font-size: 3rem;
+  }
 }
-h1 { margin-top: 0 }
-h2 { margin-bottom: 0.25rem; }
+h1 { margin-top: 0; }
+h2 { margin-top: 2em; margin-bottom: 0.25rem; }
 h4 { margin-top: 0; margin-bottom: 0; }
 p, li {
-  font-size: 1.1rem;
+  font-size: 4.8rem;
+  line-height: 0.95;
+  @media(max-width: 670px){
+    font-size: 3rem;
+  }
+  // font-weight: bold;
 }
 p {
-  margin-left: 1rem;
   margin-right: 1rem;
+  margin-bottom: 0;
+  font-family: 'Times', serif;
+  &:first-of-type {
+    margin-top: 0;
+  }
+  & + p {
+    text-indent: 3em;
+    margin-top: 0;
+  }
+}
+
+br + p {
+  margin-top: 0;
+}
+
+ol {
+  margin-left: 4.5em;
+  max-width: 80%;
+
+  li {
+    font-family: 'Times';
+  }
 }
 li {
   margin-bottom: 1rem;
 }
 ul {
   margin-top: 2rem;
+  li {
+    padding: 0;
+  }
 }
-ul li {
-  padding: 0;
+
+a {
+  color: rgb(65,220,55);
+  &:visited {
+    color: #aaa;
+  }
+  &:hover, &:focus {
+    color: #aaa;
+  }
 }
-a, a:visited {
-  color: rgb(42, 140, 255);
-;
-}
-a:hover, a:focus {
-  color: rgb(39, 124, 254);
-}
+
 hr {
   border: none;
   border-bottom: solid 0.25rem rgb(39, 124, 254);
   margin: 0;
   padding: 0;
 }
-h4, p.description {
-  font-family: 'Lato', sans-serif;
-  margin: 0;
-  padding: 0;
+strong {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bold;
+  font-size: 4.7rem;
+  @media(max-width: 670px){
+    font-size: 3rem;
+  }
 }
+// h4, p.description {
+//   font-family: 'Lato', sans-serif;
+//   margin: 0;
+//   padding: 0;
+// }
 
-footer p {
-  font-size: 1rem;
-}
+
 
 footer {
   padding-bottom: 4rem;
+  p {
+    font-size: 4.8rem;
+    line-height: 1.1;
+    @media(max-width: 670px){
+      font-size: 3rem;
+    }
+  }
 }
 
 div.key-container {
