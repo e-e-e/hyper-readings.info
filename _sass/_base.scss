@@ -87,7 +87,7 @@ ul {
 }
 
 a {
-  color: rgb(65,220,55);
+  color: rgb(0,0,255);
   &:visited {
     color: #aaa;
   }
@@ -96,12 +96,6 @@ a {
   }
 }
 
-hr {
-  border: none;
-  border-bottom: solid 0.25rem rgb(39, 124, 254);
-  margin: 0;
-  padding: 0;
-}
 strong {
   font-family: 'Helvetica', sans-serif;
   font-weight: bold;
@@ -109,13 +103,6 @@ strong {
     font-size: 3rem;
   }
 }
-// h4, p.description {
-//   font-family: 'Lato', sans-serif;
-//   margin: 0;
-//   padding: 0;
-// }
-
-
 
 footer {
   padding-bottom: 4rem;
