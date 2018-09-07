@@ -89,10 +89,10 @@ ul {
 a {
   color: rgb(0,0,255);
   &:visited {
-    color: #aaa;
+    color: rgb(0,0,255);
   }
   &:hover, &:focus {
-    color: #aaa;
+    color: #696969;
   }
 }
 
