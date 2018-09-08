@@ -2,10 +2,12 @@ html {
   font-size: 10px;
   font-family: Helvetica, sans-serif;
 }
+
 ::selection {
   background: blue;
   color: white;
 }
+
 body {
   font-size: 2.4rem;
   max-width: 1280px;
@@ -16,6 +18,7 @@ body {
     max-width: 100%;
   }
 }
+
 header img {
   display: block;
   margin: 0 auto;
@@ -36,29 +39,34 @@ h2, h3, h4, h5 {
     font-size: 3rem;
   }
 }
+
 h1 {
   margin-top: 0; margin-bottom: 1em;
 }
+
 h2 {
   margin-top: 2em; margin-bottom: 0.25rem;
 }
+
 h2, strong {
   font-size: 4.5rem;
   @media(max-width: 670px){
     font-size: 3rem;
   }
 }
+
 h4 {
   margin-top: 0; margin-bottom: 0;
 }
+
 p, li {
   font-size: 4.8rem;
   line-height: 0.95;
   @media(max-width: 670px){
     font-size: 3rem;
   }
-  // font-weight: bold;
 }
+
 p {
   margin-right: 1rem;
   margin-bottom: 0;
@@ -92,6 +100,7 @@ ol {
     font-family: 'Times';
   }
 }
+
 ul {
   margin-top: 2rem;
   list-style: none;
@@ -145,20 +154,24 @@ footer {
   }
 }
 
-div.key-container {
+.key-container {
   display: inline-flex;
   padding: 1rem;
   margin: 0.5em 0 1em;
   border-radius: 0.25rem;
   background: #eee;
+  div {
+    display: flex;
+    width: 50%;
+  }
 }
-div.key-container div {
-  display: flex;
-  width: 50%;
-}
-div.key {
-  // max-width: 17.5rem;
+
+.key {
   margin: 0.25rem 1rem;
   font-family: 'Courier New', Courier, monospace;
   word-break: break-all;
+  &::selection {
+    background: blue;
+    color: white;
+  }
 }
